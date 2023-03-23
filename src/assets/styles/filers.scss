@@ -1,0 +1,80 @@
+.side-title {
+  color: #333333;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 28px 0 16px 0;
+}
+
+.side-input {
+  width: 100px;
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #D5D5D5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.side-search {
+  position: relative;
+  width: 280px;
+  height: 36px;
+  margin: 16px 0;
+  
+  &__content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 12px 10px 40px;
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+  }
+}
+
+.filter {
+  width: 100%;
+  cursor: pointer;
+}
+
+.title-center {
+  text-align: center;
+}
+
+.list {
+  height: 168px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.list-elem {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px 8px 32px;
+  cursor: pointer;
+
+  &:hover {
+    background: #E2EFFF;
+    border-radius: 5px;
+  }
+}
+
+.category-filter__title {
+  margin: 10px 0 16px 0;
+  text-align: center;
+}
+
+.brand-filter__btn {
+  font-size: 14px;
+  color: #AAAAAA;
+  line-height: 12px;
+  text-decoration: underline;
+}
+
+
+

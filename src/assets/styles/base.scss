@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Sans:wght@400;700&display=swap');
+
+#app {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.border-blue {
+  border: 1px solid #73AFF4;
+  border-radius: 10px;
+}
+
+.border-grey {
+  border: 1px solid #AAAAAA;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  margin: 0 10px;
+  padding: 12px 24px;
+  &:hover {
+    color: #000;
+    background: #7398f588;
+  }
+}
+
+input:focus {
+  background: rgba(235, 235, 235, 0.502)
+}

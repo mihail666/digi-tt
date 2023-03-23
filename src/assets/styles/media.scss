@@ -1,0 +1,40 @@
+@media(max-width: 1441px) {
+  .search {
+    width: 480px;
+  }
+}
+
+@media(max-width: 1281px) {
+  .sidebar {
+    display: none;
+  }
+  .header__items {
+    display: none;
+  }
+  .search {
+    width: 80%;
+  }
+}
+@media(max-width: 800px) {
+  .container {
+    padding: 0 16px;
+  }
+  .header__btn {
+    display: none;
+  }
+}
+@media(max-width: 500px) {
+  .header {
+    height: 102px;
+  }
+  .search {
+    display: none;
+  }
+  .header__logo {
+    display: none;
+  }
+  .search-375px {
+    display:block;
+  }
+
+}
